@@ -19,7 +19,7 @@ and WHAT YOU SHOULD WRITE is the sayHi function that makes the code above work:
 // 1. Write a function called first that takes in two parameters, an array and a callback function, then invokes the callback function, passing in the first element in the array as it's argument.  (see the sayHi function on line 12 for reference)
 
   // Code Here 
-
+let first = (arr, cb) => {{arr[0] = cb;} return arr};
   
 var names = ['Tyler', 'Cahlan', 'Ryan', 'Colt', 'Tyler', 'Blaine', 'Cahlan'];
 
